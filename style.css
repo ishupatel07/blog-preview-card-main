@@ -73,7 +73,7 @@ html body{
     margin-top: 15px;
 }
 
-#pic {
+/* #pic {
     width: 20px;
     margin-top: 20px;
 }
@@ -81,7 +81,22 @@ html body{
 .box h4{
     display: inline-block;
     font-size: 10px;
-    position: absolute;
-    bottom: 84px;
     
+    
+} */
+
+#pic {
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    vertical-align: middle; /* align the image vertically */
 }
+
+#pic + h4 {
+    font-size: 14px;
+    margin: 20px 0 0 0; /* Adjust the margin to align the heading */
+    display: inline-block;
+    vertical-align: middle; /* align the heading vertically */
+}
+
+
